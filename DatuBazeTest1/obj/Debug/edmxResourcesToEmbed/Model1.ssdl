@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DarbaGaldi">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Aizņemts" Type="bit" Nullable="false" />
+    <Property Name="DetaļasId" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Detaļas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DetaļuInstr">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DetaļuIdId" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DarbaGalduId" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Laiks" Type="nchar" MaxLength="10" />
+    <Property Name="StartaLaiks" Type="datetime" />
+    <Property Name="BeiguLaiks" Type="datetime" />
+    <Property Name="Progress" Type="varbinary(max)" />
+    <Property Name="Skaits" Type="varchar" MaxLength="50" />
+    <Property Name="SetupTime" Type="int" Nullable="false" />
+    <Property Name="Duplicates" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Display">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Item" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="s1" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s2" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s3" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s4" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s5" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s6" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s7" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s8" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s9" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s10" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s11" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s12" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s13" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s14" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s15" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s16" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s17" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s18" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s19" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s20" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s21" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s22" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s23" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s24" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s25" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s26" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s27" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s28" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s29" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s30" Type="varbinary(max)" Nullable="false" />
+    <Property Name="s31" Type="varbinary(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pause">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PauseName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PauseStart" Type="datetime" Nullable="false" />
+    <Property Name="PauseEnd" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rinda">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KārtasNūmurs" Type="int" Nullable="false" />
+    <Property Name="DetaļuIdId" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DarbaGalduId" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="BeiguLaiks" Type="datetime" Nullable="false" />
+    <Property Name="Skaits" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SākumaLaiks" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Database1ModelStoreContainer">
+    <EntitySet Name="DarbaGaldi" EntityType="Self.DarbaGaldi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Detaļas" EntityType="Self.Detaļas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DetaļuInstr" EntityType="Self.DetaļuInstr" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Display" EntityType="Self.Display" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pause" EntityType="Self.Pause" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rinda" EntityType="Self.Rinda" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

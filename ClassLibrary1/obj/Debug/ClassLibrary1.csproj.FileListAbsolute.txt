@@ -1,0 +1,8 @@
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\ClassLibrary1\bin\Debug\DataSource.mdf
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\ClassLibrary1\bin\Debug\DataSource_log.ldf
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

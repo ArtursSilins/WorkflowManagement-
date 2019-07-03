@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Database1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DarbaGaldi" EntityType="Database1Model.DarbaGaldi" />
+    <EntitySet Name="Detaļas" EntityType="Database1Model.Detaļas" />
+    <EntitySet Name="DetaļuInstr" EntityType="Database1Model.DetaļuInstr" />
+    <EntitySet Name="Rinda" EntityType="Database1Model.Rinda" />
+    <EntitySet Name="Display" EntityType="Database1Model.Display" />
+    <EntitySet Name="Pause" EntityType="Database1Model.Pause" />
+  </EntityContainer>
+  <EntityType Name="DarbaGaldi">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Aizņemts" Type="Boolean" Nullable="false" />
+    <Property Name="DetaļasId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Detaļas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="DetaļuInstr">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DetaļuIdId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DarbaGalduId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Laiks" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="BeiguLaiks" Type="DateTime" Precision="3" />
+    <Property Name="Progress" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Skaits" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="StartaLaiks" Type="DateTime" Precision="3" />
+    <Property Name="SetupTime" Type="Int32" Nullable="false" />
+    <Property Name="Duplicates" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Rinda">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="KārtasNūmurs" Type="Int32" Nullable="false" />
+    <Property Name="DetaļuIdId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DarbaGalduId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BeiguLaiks" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Skaits" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SākumaLaiks" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Display">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="s1" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s2" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s3" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s4" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s5" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s6" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s7" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s8" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s9" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s10" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s11" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s12" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s13" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s14" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s15" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s16" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s17" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s18" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s19" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s20" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s21" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s22" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s23" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s24" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s25" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s26" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s27" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s28" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s29" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s30" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="s31" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="Item" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Pause">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PauseStart" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PauseEnd" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PauseName" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

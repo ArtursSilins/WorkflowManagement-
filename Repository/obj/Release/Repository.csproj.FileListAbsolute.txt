@@ -1,0 +1,12 @@
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Repository\bin\Release\KvistData.mdf
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Repository\bin\Release\KvistData_log.ldf
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Repository\bin\Release\Repository.dll.config
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Repository\bin\Release\Repository.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Repository\bin\Release\Repository.pdb
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Repository\bin\Release\Domain.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Repository\bin\Release\Domain.pdb
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Repository\obj\Release\Repository.csprojAssemblyReference.cache
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Repository\obj\Release\Repository.csproj.CoreCompileInputs.cache
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Repository\obj\Release\Repository.csproj.CopyComplete
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Repository\obj\Release\Repository.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Repository\obj\Release\Repository.pdb

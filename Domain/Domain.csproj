@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{14AF9183-F887-4636-9D82-127C25B60903}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Domain</RootNamespace>
+    <AssemblyName>Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adding\AddNew.cs" />
+    <Compile Include="Adding\ChangeTime.cs" />
+    <Compile Include="Adding\ItemsOperationsConnection.cs" />
+    <Compile Include="Adding\Pause.cs" />
+    <Compile Include="ArrangeInLineTable\ElapsedInLineTimes.cs" />
+    <Compile Include="ArrangeInLineTable\InLineFirstNr.cs" />
+    <Compile Include="ArrangeInLineTable\SortedInLineTeableASC.cs" />
+    <Compile Include="ArrangeInLineTable\SortInLineTableNr.cs" />
+    <Compile Include="Checking\CheckIfConnectionExists.cs" />
+    <Compile Include="Checking\DisplayTableProgress.cs" />
+    <Compile Include="Checking\IsBusyCheck.cs" />
+    <Compile Include="Delete\Form2ExpirdTimeCountPicture.cs" />
+    <Compile Include="Delete\ItemsOperations.cs" />
+    <Compile Include="Delete\Pause.cs" />
+    <Compile Include="FindTime\Time.cs" />
+    <Compile Include="Form2\combiningDataForGrid.cs" />
+    <Compile Include="Form2\DaraRow.cs" />
+    <Compile Include="Form2\HeaderText.cs" />
+    <Compile Include="Interfaces\IChangeTimeRepository.cs" />
+    <Compile Include="Interfaces\ICheckIfConnectionExistsRepository.cs" />
+    <Compile Include="Interfaces\IDataForForm2ProgressWaitingTxtRepository.cs" />
+    <Compile Include="Interfaces\IDataForInLineTable.cs" />
+    <Compile Include="Interfaces\IDeletePauseRepository.cs" />
+    <Compile Include="Interfaces\IDisplayRepository.cs" />
+    <Compile Include="Interfaces\IDuplicateOperationsRepository.cs" />
+    <Compile Include="Interfaces\IElapsedInLineTimesRepository.cs" />
+    <Compile Include="Interfaces\IExcelRepository.cs" />
+    <Compile Include="Interfaces\IForm2ProgressPictureRepository.cs" />
+    <Compile Include="Interfaces\IForm2TextRepository.cs" />
+    <Compile Include="Interfaces\IInLineFirstNrRepository.cs" />
+    <Compile Include="Interfaces\IIsBusyCheckRepository.cs" />
+    <Compile Include="Interfaces\IItemsForForm2Repository.cs" />
+    <Compile Include="Interfaces\IItemsOperationsConnectionRepository.cs" />
+    <Compile Include="Interfaces\IItemsOperationsForTrueFalseCheckReposytory.cs" />
+    <Compile Include="Interfaces\IItemsOperationsRepository.cs" />
+    <Compile Include="Interfaces\IItemsWithOperationsRepository.cs" />
+    <Compile Include="Interfaces\INumerationInLineRepository.cs" />
+    <Compile Include="Interfaces\IOperationTableRepository.cs" />
+    <Compile Include="Interfaces\IPauseRepository.cs" />
+    <Compile Include="Interfaces\IPauseTimesRepository.cs" />
+    <Compile Include="Interfaces\ISortedInLineTableASCRepository.cs" />
+    <Compile Include="Interfaces\IStartAllOperations.cs" />
+    <Compile Include="Interfaces\IStartTimeRepository.cs" />
+    <Compile Include="Interfaces\ITimeRepository.cs" />
+    <Compile Include="Interfaces\IUpdateDisplayRepository.cs" />
+    <Compile Include="IsOperationBusy\ItemsOperationsForTrueFalseCheck.cs" />
+    <Compile Include="IsOperationBusy\SetItemsOperationsToNull.cs" />
+    <Compile Include="Checking\CheckIfExists.cs" />
+    <Compile Include="Interfaces\IItemForGrid.cs" />
+    <Compile Include="Interfaces\IItemsOperationsNullRepository.cs" />
+    <Compile Include="Interfaces\IOperationList.cs" />
+    <Compile Include="Interfaces\IOperationConditionRepository.cs" />
+    <Compile Include="IsOperationBusy\OperationCondition.cs" />
+    <Compile Include="MethodValues.cs" />
+    <Compile Include="PauseTimes\CheckingForPause.cs" />
+    <Compile Include="ProgressPicture\Picture.cs" />
+    <Compile Include="RetrieveSpecific\InLineOperationsId.cs" />
+    <Compile Include="RetrieveSpecific\ItemForGrid.cs" />
+    <Compile Include="RetrieveSpecific\ItemsWithOperations.cs" />
+    <Compile Include="RetrieveSpecific\OperationList.cs" />
+    <Compile Include="SaveTo\Excel.cs" />
+    <Compile Include="ShowingProgressByDays\Display.cs" />
+    <Compile Include="StartAllOperations\Item.cs" />
+    <Compile Include="StartOneOperation\StartTime.cs" />
+    <Compile Include="View\All.cs" />
+    <Compile Include="Interfaces\ICheckIfExistRepository.cs" />
+    <Compile Include="Interfaces\IAll.cs" />
+    <Compile Include="Interfaces\IAdd.cs" />
+    <Compile Include="PauseDropLists\PauseTimeSet.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

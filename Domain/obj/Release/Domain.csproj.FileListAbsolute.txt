@@ -1,0 +1,6 @@
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain\bin\Release\Domain.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain\bin\Release\Domain.pdb
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain\obj\Release\Domain.csproj.CoreCompileInputs.cache
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain\obj\Release\Domain.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain\obj\Release\Domain.pdb
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain\obj\Release\Domain.csprojAssemblyReference.cache

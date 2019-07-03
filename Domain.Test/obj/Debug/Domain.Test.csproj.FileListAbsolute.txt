@@ -1,0 +1,16 @@
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\bin\Debug\Domain.Test.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\bin\Debug\Domain.Test.pdb
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\bin\Debug\Domain.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\bin\Debug\Domain.pdb
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\obj\Debug\Domain.Test.csprojAssemblyReference.cache
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\obj\Debug\Domain.Test.csproj.CoreCompileInputs.cache
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\obj\Debug\Domain.Test.csproj.CopyComplete
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\obj\Debug\Domain.Test.dll
+C:\Users\X\Documents\Visual Studio 2017\Projects\DatuBazeTest1\Domain.Test\obj\Debug\Domain.Test.pdb
